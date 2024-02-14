@@ -1,0 +1,115 @@
+/* Apply CSS formatting to the entire page */
+body {
+    font-family: system-ui;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+}
+hr {
+    box-sizing: content-box;
+    height: 0;
+}
+
+.top-link {
+    color: white;
+}
+
+a.top-link:hover {
+    color: #76d172;
+}
+
+.container--outer {
+    margin: 25px auto;
+    box-shadow: 0 0 10px rgba(50, 50, 50, .17);
+}
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+.resume-title-background {
+    margin: none;
+    width: 100%;
+    background-color: #3589bb;
+}
+
+.resume-title-name {
+    color: white;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.resume-title-sub-info {
+    color: white;
+    margin: auto;
+    padding-bottom: 10px;
+    font-size: 16px;
+    text-align: center;
+    font-style: italic;
+}
+
+.resume-content {
+    margin: 0;
+    padding: 10px;
+}
+
+.subsection-title {
+    color:#434343;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.job-title-and-dates{
+    padding-bottom: 8px;
+    font-size: 14px;
+}
+
+.job-content{
+    font-size: 14px;
+}
+
+.job-title{
+    float: left;
+    font-weight: 600;
+}
+
+.job-dates{
+    float: right;
+    font-weight: 600;
+}
+
+li {
+    padding: 2px;
+}
+
+.skill-list {
+    columns: 2;
+}
+
+.skills{
+    padding: 2px;
+}
+
+.college-info{
+    list-style-type: none;
+    list-style: none;
+    padding-left: 0;
+}
+
+.visitor-counter-box {
+    margin: auto;
+    padding: 20px;
+}
+
+.visitor-counter {
+    color: white;
+    margin: auto;
+    font-size: 16px;
+    text-align: center;
+}
