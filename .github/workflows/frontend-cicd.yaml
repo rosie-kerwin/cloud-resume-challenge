@@ -1,4 +1,4 @@
-name: Upload rosiekerwinresume.com frontend files to S3
+name: CI/CD setup for the Cloud Resume Challenge
 
 on:
   push:
