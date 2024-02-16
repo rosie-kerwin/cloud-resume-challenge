@@ -10,10 +10,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@main
-    - uses: shallwefootball/s3-upload-action@master
+    - uses: jakejarvis/s3-sync-action@master
       with:
+        args: --acl private --follow-symlinks --delete
+      env:
         aws_key_id: ${{ secrets.AWS_KEY_ID }}
         aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY}}
+        AWS_REGION: 'us-east-1'
         aws_bucket: ${{ secrets.AWS_BUCKET }}
         source_dir: 'frontend'
         destination_dir: ''
